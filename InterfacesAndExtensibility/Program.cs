@@ -10,6 +10,7 @@ namespace InterfacesAndExtensibility
         static void Main(string[] args)
         {
             var dbMigrator = new DbMigrator(new ConsoleLogger());
+            var dbMigrator2 = new DbMigrator(new FileLogger("C:\\Projects\\log.txt"));
             dbMigrator.Migrate();
         }
     }

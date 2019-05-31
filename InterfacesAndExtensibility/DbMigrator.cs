@@ -2,7 +2,6 @@
 
 namespace InterfacesAndExtensibility
 {
-
     public class DbMigrator
     {
         private readonly ILogger _logger;
