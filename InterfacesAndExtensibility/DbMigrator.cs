@@ -14,9 +14,9 @@ namespace InterfacesAndExtensibility
 
         public void Migrate()
         {
-            _logger.LogInfo("Migration started at {0}" + DateTime.Now);
+            _logger.LogInfo("Migration started at" + DateTime.Now);
 
-            _logger.LogInfo("Migration finished at {0}" + DateTime.Now);
+            _logger.LogInfo("Migration finished at" + DateTime.Now);
         }
     }
 }
